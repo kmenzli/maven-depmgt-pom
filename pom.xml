@@ -131,6 +131,7 @@
     <org.mockito.version>1.10.19</org.mockito.version>
     <org.ogce.xpp3.version>1.1.6</org.ogce.xpp3.version>
     <org.owasp.antisamy.version>1.5.3</org.owasp.antisamy.version>
+    <com.googlecode.owasp-java-html-sanitizer.owasp-java-html-sanitizer.version>20160413.1</com.googlecode.owasp-java-html-sanitizer.owasp-java-html-sanitizer.version>
     <org.picketlink.idm.version>1.4.6.Final</org.picketlink.idm.version>
     <org.slf4j.version>1.7.18</org.slf4j.version>
     <org.staxnav.version>0.9.8</org.staxnav.version>
@@ -738,6 +739,11 @@
         <groupId>org.owasp.antisamy</groupId>
         <artifactId>antisamy</artifactId>
         <version>${org.owasp.antisamy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
+        <artifactId>owasp-java-html-sanitizer</artifactId>
+        <version>${com.googlecode.owasp-java-html-sanitizer.owasp-java-html-sanitizer.version}</version>
       </dependency>
       <dependency>
         <groupId>org.picketlink.idm</groupId>
